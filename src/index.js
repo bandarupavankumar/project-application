@@ -9,6 +9,10 @@ import Contact from './components/pages/Contact';
 import Car from './components/Car';
 import Cards from './components/Cards';
 import Packet from './components/Packet';
+
+import Accordian from './components/Accordian';
+import Tub from './components/Tub';
+import Rating from './components/Rating';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
@@ -22,6 +26,9 @@ root.render(
       <Car/>
       <Cards/>
       <Packet/>
+      <Accordian/>
+      <Tub/>
+      <Rating/>
       <App />
     </BrowserRouter>
   </React.StrictMode>
