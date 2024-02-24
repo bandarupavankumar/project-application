@@ -4,7 +4,7 @@ import { ChevronRight, MapPin, Phone, Mail } from "lucide-react";
 const Footer = () => {
   return (
     <div
-      className="bg-cover bg-center bg-no-repeat bg-red-950"
+      className="bg-cover bg-center bg-no-repeat bg-red-950 "
       style={{ backgroundImage: "url('/path/to/your/background-image.jpg')" }}
     >
       <div className="container mx-auto py-8 mb-5">

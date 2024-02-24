@@ -11,7 +11,7 @@ const Header = () => {
 
   return (
     <nav className={`bg-red-800 h-auto w-full`}>
-      <div className="flex md:flex space-x-5 md:mt-0 justify-evenly ml-5 mr-5">
+      <div className="flex md:flex space-x-5 md:mt-0 justify-evenly ml-5 mr-5 sticky">
         <div className="flex items-center">
           <UserRound className="h-8 w-8 text-white" />
           <p className="text-white ml-2 font-semibold">Follow Us</p>
@@ -95,7 +95,7 @@ const Header = () => {
           </li>
           <NavLinks />
           <li>
-            <Link to='/about' className='py-7 px-3 inline-block' >
+            <Link to='/contact' className='py-7 px-3 inline-block' >
               contact us
             </Link>
           </li>

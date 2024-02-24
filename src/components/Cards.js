@@ -50,30 +50,30 @@ const Cards = () => {
         "Astrologer Shivanand Ji provides Family issues and resolution services in New York, USA that are intended to provide insight and direction to people.",
       buttonText: " Read More",
     },
-    {
-      id: 7,
-      image: "assets/serivce/9a.jpg",
-      title: "PSYCHIC READINGS",
-      description:
-        "Astrologer Shivanand Ji provides Psychic Readings and resolution services in New York, USA that are intended to provide insight and direction to people.",
-      buttonText: " Read More",
-    },
-    {
-      id: 8,
-      image: "assets/serivce/7a.jpg",
-      title: "SPIRITUAL - ENERGY HEALING",
-      description:
-        "Astrologer Shivanand Ji provides Spiritual - Energy Healing and resolution services in New York, USA that are intended to provide insight and direction to people.",
-      buttonText: " Read More",
-    },
-    {
-      id: 9,
-      image: "assets/serivce/8a.png",
-      title: "SPELLS & CURSE REMOVAL",
-      description:
-        "Astrologer Shivanand Ji provides Psychic Readings and resolution services in New York, USA that are intended to provide insight and direction to people.",
-      buttonText: " Read More",
-    },
+    // {
+    //   id: 7,
+    //   image: "assets/serivce/9a.jpg",
+    //   title: "PSYCHIC READINGS",
+    //   description:
+    //     "Astrologer Shivanand Ji provides Psychic Readings and resolution services in New York, USA that are intended to provide insight and direction to people.",
+    //   buttonText: " Read More",
+    // },
+    // {
+    //   id: 8,
+    //   image: "assets/serivce/7a.jpg",
+    //   title: "SPIRITUAL - ENERGY HEALING",
+    //   description:
+    //     "Astrologer Shivanand Ji provides Spiritual - Energy Healing and resolution services in New York, USA that are intended to provide insight and direction to people.",
+    //   buttonText: " Read More",
+    // },
+    // {
+    //   id: 9,
+    //   image: "assets/serivce/8a.png",
+    //   title: "SPELLS & CURSE REMOVAL",
+    //   description:
+    //     "Astrologer Shivanand Ji provides Psychic Readings and resolution services in New York, USA that are intended to provide insight and direction to people.",
+    //   buttonText: " Read More",
+    // },
   ];
   return (
     <div>

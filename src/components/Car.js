@@ -8,7 +8,7 @@ const Car = () => {
     { title: "LIFETIME PROTECTION", value: 99 },
   ];
   return (
-    <div className="grid grid-cols-1 sm:grid-cols-1 sm:pl-5 sm:pr-5 md:grid-cols-1 lg:grid-cols-1 xl:grid-cols-2 gap-4 xl:ml-5 xl:mr-5">
+    <div className="grid grid-cols-1 mt-6 sm:grid-cols-1 sm:pl-5 sm:pr-5 md:grid-cols-1 lg:grid-cols-1 xl:grid-cols-2 gap-4 xl:ml-5 xl:mr-5">
       <div className="p-4 bg-gray-100">
         <h2 className=" font-bold text-violet-800 pb-3 xl:text-2xl">
           ASTROLOGER SHIVANAND JI

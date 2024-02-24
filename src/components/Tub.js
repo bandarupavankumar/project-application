@@ -75,7 +75,7 @@ const Tub = () => {
     <div className="relative">
         <h1 className=' text-xl text-violet-950 text-center font-semibold'>Related Services</h1>
         <h2 className=' text-red-900 text-center text-3xl font-extrabold mb-2'>SERVICES WE OFFER FOR YOU</h2>
-    <div className="flex overflow-hidden ">
+    <div className="flex overflow-hidden sm:scale-100 xl:scale-100 m-4 shadow-lg rounded-lg ">
         
         {data.slice(currentIndex, currentIndex + 3).map((item) => (
             <div key={item.id} className="w-1/3 p-4 border  sm:w-1/2">
