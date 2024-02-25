@@ -96,7 +96,7 @@ const Header = () => {
           <NavLinks />
           <li>
             <Link to='/contact' className='py-7 px-3 inline-block' >
-              contact us
+              contact
             </Link>
           </li>
         </ul>
@@ -117,9 +117,12 @@ const Header = () => {
         </ul>
 
           <div className="mr-10 md:p-4 md:m-2 ml-5 ">
-            <button className="bg-red-800 text-white p-3 m-1">
+            <button className="bg-red-800 border  text-white p-3 m-1">
+            <Link to='/appointment' >
               BOOK AN APPOINTMENT
+            </Link>
             </button>
+            
           </div>
         </div>
       </div>

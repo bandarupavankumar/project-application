@@ -20,6 +20,13 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 // import Map from './components/Map';
 import Home from './components/pages/Home';
 import Contact from './components/pages/Contact';
+import Appointment from './components/pages/Appointment';
+import Love from './components/pages/solution/Love';
+import Career from './components/pages/solution/Career'
+import Relation from './components/pages/solution/Relation'
+import Health from './components/pages/solution/Health'
+import Business from './components/pages/solution/Business'
+import Financial from './components/pages/solution/Financial'
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
@@ -30,6 +37,13 @@ root.render(
         <Route path='/' element={<Home/>}/>
         <Route path='about' element={<About/>}/>
         <Route path='contact' element={<Contact/>}/>
+        <Route path='appointment' element={<Appointment/>} />
+        <Route path='careerproblemsolution' element={<Career/>}/>
+        <Route path='loveproblemsolution' element={<Love/>}/>
+        <Route path='relationshipProblemsolution' element={<Relation/>}/>
+        <Route path='healthProblemsolution' element={<Health/>}/>
+        <Route path='businessProblemsolution' element={<Business/>}/>
+        <Route path='FinancialProblemsolution' element={<Financial/>}/>
         
       </Routes>
       {/* <Car/>

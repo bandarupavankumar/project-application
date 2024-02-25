@@ -93,14 +93,14 @@ const Cards = () => {
         </a>
       </div>
 
-      <div className="grid grid-cols-1 m-10 sm:grid-cols-3 sm:grid-rows-3 sm:gap-4 md:grid-cols-3 md:grid-rows-3 md:gap-4 lg:grid-cols-3 lg:grid-rows-3 lg:gap-4">
+      <div className="grid grid-cols-1 m-10 sm:grid-cols-3 sm:grid-rows-2 sm:gap-4 md:grid-cols-3 md:grid-rows-2 md:gap-4 lg:grid-cols-3 lg:grid-rows-2 lg:gap-4">
         {gridData.map((cell) => (
           <div key={cell.id} className="bg-gray-200 aspect-square rounded-lg">
             {cell.image && (
               <>
                 <img
                   src={cell.image}
-                  className="object-cover rounded-lg"
+                  className="object-cover rounded-lg transform transition-transform duration-300 hover:scale-110"
                   alt=""
                 />
                 <h2 className="text-red-900 font-extrabold p-2 text-xl text-center">
